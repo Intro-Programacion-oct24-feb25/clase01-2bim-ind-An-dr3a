@@ -22,33 +22,30 @@ public class Ejemplo01 {
         entrada.useLocale(Locale.US);
         
         String cadena = "";
-        int operacion;
         
         for (int i = 10; i <= 30; i++) {
-            operacion = i + 1;
-            cadena = String.format("%d\n", operacion);
-            System.out.printf("%s\n", operacion);
+            i = i + 1;
+            cadena = String.format("%d\n", i);
+            System.out.printf("%s\n", cadena);
         }
             
         for (int j = 20; j <= 60; j++) {
-        operacion = j + 2;
-        cadena = String.format("%d\n", operacion);
-        System.out.printf("%s\n", operacion);
+            j = j + 2;
+            cadena = String.format("%d\n", j);
+            System.out.printf("%s\n", cadena);
         }
             
         for (int k = 30; k <= 90 ; k++) {
-        operacion = k + 3;
-        cadena = String.format("%d\n", operacion);
-        System.out.printf("%s\n", operacion);
+            k = k + 3;
+            cadena = String.format("%d\n", k);
+            System.out.printf("%s\n", cadena);
         }
             
         for (int l = 40; l <= 120 ; l++) {
-        operacion = l + 4;
-        cadena = String.format("%d\n", operacion);
-        System.out.printf("%s\n", operacion);
+            l = l + 4;
+            cadena = String.format("%d\n", l);
+            System.out.printf("%s\n", cadena);
         }
-                    
-                
     }          
 }    
                     
