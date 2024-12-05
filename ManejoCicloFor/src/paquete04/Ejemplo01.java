@@ -20,33 +20,17 @@ public class Ejemplo01 {
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
         entrada.useLocale(Locale.US);
-        
-        String cadena = "";
-        
-        for (int i = 10; i <= 30; i++) {
-            i = i + 1;
-            cadena = String.format("%d\n", i);
-            System.out.printf("%s\n", cadena);
+                
+        for (int i = 30; i >= 10; i--) {
+            for (int j = 1; j <= 4; j++) {
+                System.out.print((i * j));
+                if (j < 4) {
+                    System.out.print("-");
+                }
+            }
+            System.out.println();
         }
-            
-        for (int j = 20; j <= 60; j++) {
-            j = j + 2;
-            cadena = String.format("%d\n", j);
-            System.out.printf("%s\n", cadena);
-        }
-            
-        for (int k = 30; k <= 90 ; k++) {
-            k = k + 3;
-            cadena = String.format("%d\n", k);
-            System.out.printf("%s\n", cadena);
-        }
-            
-        for (int l = 40; l <= 120 ; l++) {
-            l = l + 4;
-            cadena = String.format("%d\n", l);
-            System.out.printf("%s\n", cadena);
-        }
-    }          
+    }
 }    
                     
 
